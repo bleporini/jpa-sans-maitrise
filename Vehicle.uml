@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>org.blep.jpa.kata._14Hierarchy.Vehicle</OriginalElement>
+  <nodes>
+    <node x="462.76785714285717" y="500.0">org.blep.jpa.kata._14Hierarchy.Bicycle</node>
+    <node x="649.4345238095239" y="500.0">org.blep.jpa.kata._14Hierarchy.Helicopter</node>
+    <node x="319.1960784313725" y="0.0">lombok.Data</node>
+    <node x="768.4345238095239" y="500.0">org.blep.jpa.kata._14Hierarchy.Plane</node>
+    <node x="669.6817226890756" y="390.0">org.blep.jpa.kata._14Hierarchy.Aircraft</node>
+    <node x="592.0983893557423" y="200.0">javax.persistence.MappedSuperclass</node>
+    <node x="560.4345238095239" y="500.0">org.blep.jpa.kata._14Hierarchy.JetSki</node>
+    <node x="232.1670168067225" y="120.0">org.blep.jpa.kata._14Hierarchy.Owner</node>
+    <node x="18.946078431372484" y="0.0">lombok.EqualsAndHashCode</node>
+    <node x="341.7678571428571" y="500.0">org.blep.jpa.kata._14Hierarchy.MotorBike</node>
+    <node x="401.6960784313724" y="390.0">org.blep.jpa.kata._14Hierarchy.LandVehicle</node>
+    <node x="125.265056022409" y="200.0">org.blep.jpa.kata._14Hierarchy.Model</node>
+    <node x="94.1670168067225" y="120.0">org.blep.jpa.kata._14Hierarchy.Manufacturer</node>
+    <node x="266.76785714285717" y="500.0">org.blep.jpa.kata._14Hierarchy.Car</node>
+    <node x="539.6988795518206" y="390.0">org.blep.jpa.kata._14Hierarchy.Boat</node>
+    <node x="407.68452380952374" y="200.0">javax.persistence.Inheritance</node>
+    <node x="417.1670168067225" y="300.0">org.blep.jpa.kata._14Hierarchy.Vehicle</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="org.blep.jpa.kata._14Hierarchy.Vehicle" target="javax.persistence.Inheritance">
+      <point x="6.583333333333314" y="-15.0" />
+      <point x="463.2503501400558" y="280.0" />
+      <point x="459.68452380952374" y="280.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="org.blep.jpa.kata._14Hierarchy.Helicopter" target="org.blep.jpa.kata._14Hierarchy.Aircraft">
+      <point x="0.0" y="-15.0" />
+      <point x="698.9345238095239" y="470.0" />
+      <point x="689.9317226890756" y="470.0" />
+      <point x="-20.25" y="15.0" />
+    </edge>
+    <edge source="org.blep.jpa.kata._14Hierarchy.Bicycle" target="lombok.Data">
+      <point x="25.666666666666686" y="-15.0" />
+      <point x="526.9345238095239" y="480.0" />
+      <point x="785.9733893557423" y="480.0" />
+      <point x="785.9733893557423" y="80.0" />
+      <point x="377.6960784313725" y="80.0" />
+      <point x="27.0" y="15.0" />
+    </edge>
+    <edge source="org.blep.jpa.kata._14Hierarchy.Owner" target="lombok.EqualsAndHashCode">
+      <point x="-18.5" y="-15.0" />
+      <point x="250.6670168067225" y="60.0" />
+      <point x="171.23179271708676" y="60.0" />
+      <point x="70.28571428571428" y="15.0" />
+    </edge>
+    <edge source="org.blep.jpa.kata._14Hierarchy.LandVehicle" target="javax.persistence.MappedSuperclass">
+      <point x="27.25" y="-15.0" />
+      <point x="483.4460784313724" y="370.0" />
+      <point x="549.5836834733891" y="370.0" />
+      <point x="549.5836834733891" y="270.0" />
+      <point x="648.3483893557423" y="270.0" />
+      <point x="-18.75" y="15.0" />
+    </edge>
+    <edge source="org.blep.jpa.kata._14Hierarchy.Vehicle" target="lombok.EqualsAndHashCode">
+      <point x="-32.91666666666663" y="-15.0" />
+      <point x="423.75035014005584" y="280.0" />
+      <point x="55.39915966386536" y="280.0" />
+      <point x="55.39915966386536" y="80.0" />
+      <point x="100.94607843137248" y="80.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="org.blep.jpa.kata._14Hierarchy.Car" target="lombok.EqualsAndHashCode">
+      <point x="-18.333333333333314" y="-15.0" />
+      <point x="275.93452380952385" y="480.0" />
+      <point x="0.0" y="480.0" />
+      <point x="0.0" y="50.0" />
+      <point x="30.660364145658207" y="50.0" />
+      <point x="-70.28571428571428" y="15.0" />
+    </edge>
+    <edge source="org.blep.jpa.kata._14Hierarchy.Bicycle" target="lombok.EqualsAndHashCode">
+      <point x="-25.666666666666686" y="-15.0" />
+      <point x="475.6011904761905" y="440.0" />
+      <point x="44.39915966386536" y="440.0" />
+      <point x="44.39915966386536" y="70.0" />
+      <point x="77.51750700280104" y="70.0" />
+      <point x="-23.428571428571445" y="15.0" />
+    </edge>
+    <edge source="org.blep.jpa.kata._14Hierarchy.Boat" target="org.blep.jpa.kata._14Hierarchy.Vehicle">
+      <point x="-15.25" y="-15.0" />
+      <point x="554.9488795518206" y="360.0" />
+      <point x="456.6670168067225" y="360.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="org.blep.jpa.kata._14Hierarchy.LandVehicle" target="org.blep.jpa.kata._14Hierarchy.Vehicle">
+      <point x="-27.25" y="-15.0" />
+      <point x="428.9460784313724" y="370.0" />
+      <point x="430.33368347338916" y="370.0" />
+      <point x="-26.333333333333314" y="15.0" />
+    </edge>
+    <edge source="org.blep.jpa.kata._14Hierarchy.Model" target="lombok.EqualsAndHashCode">
+      <point x="-24.0" y="-15.0" />
+      <point x="137.265056022409" y="175.0" />
+      <point x="66.39915966386536" y="175.0" />
+      <point x="66.39915966386536" y="90.0" />
+      <point x="124.37464985994393" y="90.0" />
+      <point x="23.428571428571445" y="15.0" />
+    </edge>
+    <edge source="org.blep.jpa.kata._14Hierarchy.Manufacturer" target="lombok.EqualsAndHashCode">
+      <point x="-29.25" y="-15.0" />
+      <point x="123.4170168067225" y="100.0" />
+      <point x="147.80322128851535" y="100.0" />
+      <point x="46.85714285714286" y="15.0" />
+    </edge>
+    <edge source="org.blep.jpa.kata._14Hierarchy.JetSki" target="org.blep.jpa.kata._14Hierarchy.Boat">
+      <point x="0.0" y="-15.0" />
+      <point x="594.9345238095239" y="470.0" />
+      <point x="570.1988795518206" y="470.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="org.blep.jpa.kata._14Hierarchy.Car" target="lombok.Data">
+      <point x="0.0" y="-15.0" />
+      <point x="294.26785714285717" y="460.0" />
+      <point x="316.6670168067225" y="460.0" />
+      <point x="316.6670168067225" y="100.0" />
+      <point x="350.6960784313725" y="100.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="org.blep.jpa.kata._14Hierarchy.Vehicle" target="org.blep.jpa.kata._14Hierarchy.Model">
+      <point x="-19.75" y="-15.0" />
+      <point x="436.9170168067225" y="270.0" />
+      <point x="161.265056022409" y="270.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="org.blep.jpa.kata._14Hierarchy.Model" target="org.blep.jpa.kata._14Hierarchy.Manufacturer">
+      <point x="0.0" y="-15.0" />
+      <point x="161.265056022409" y="175.0" />
+      <point x="152.6670168067225" y="175.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="org.blep.jpa.kata._14Hierarchy.Vehicle" target="javax.persistence.MappedSuperclass">
+      <point x="32.916666666666686" y="-15.0" />
+      <point x="489.58368347338916" y="260.0" />
+      <point x="610.8483893557423" y="260.0" />
+      <point x="-56.25" y="15.0" />
+    </edge>
+    <edge source="org.blep.jpa.kata._14Hierarchy.Vehicle" target="org.blep.jpa.kata._14Hierarchy.Owner">
+      <point x="-6.583333333333314" y="-15.0" />
+      <point x="450.08368347338916" y="260.0" />
+      <point x="269.1670168067225" y="260.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="org.blep.jpa.kata._14Hierarchy.Aircraft" target="javax.persistence.MappedSuperclass">
+      <point x="20.25" y="-15.0" />
+      <point x="730.4317226890756" y="280.0" />
+      <point x="723.3483893557423" y="280.0" />
+      <point x="56.25" y="15.0" />
+    </edge>
+    <edge source="org.blep.jpa.kata._14Hierarchy.Bicycle" target="org.blep.jpa.kata._14Hierarchy.LandVehicle">
+      <point x="0.0" y="-15.0" />
+      <point x="501.26785714285717" y="480.0" />
+      <point x="492.5294117647058" y="480.0" />
+      <point x="36.33333333333337" y="15.0" />
+    </edge>
+    <edge source="org.blep.jpa.kata._14Hierarchy.Boat" target="javax.persistence.MappedSuperclass">
+      <point x="15.25" y="-15.0" />
+      <point x="585.4488795518206" y="370.0" />
+      <point x="610.1845238095239" y="370.0" />
+      <point x="610.1845238095239" y="280.0" />
+      <point x="685.8483893557423" y="280.0" />
+      <point x="18.75" y="15.0" />
+    </edge>
+    <edge source="org.blep.jpa.kata._14Hierarchy.Vehicle" target="lombok.Data">
+      <point x="19.75" y="-15.0" />
+      <point x="476.4170168067225" y="250.0" />
+      <point x="581.5983893557423" y="250.0" />
+      <point x="581.5983893557423" y="90.0" />
+      <point x="368.6960784313725" y="90.0" />
+      <point x="18.0" y="15.0" />
+    </edge>
+    <edge source="org.blep.jpa.kata._14Hierarchy.MotorBike" target="lombok.EqualsAndHashCode">
+      <point x="-32.333333333333314" y="-15.0" />
+      <point x="357.93452380952385" y="450.0" />
+      <point x="11.0" y="450.0" />
+      <point x="11.0" y="60.0" />
+      <point x="54.08893557422965" y="60.0" />
+      <point x="-46.85714285714283" y="15.0" />
+    </edge>
+    <edge source="org.blep.jpa.kata._14Hierarchy.Car" target="org.blep.jpa.kata._14Hierarchy.LandVehicle">
+      <point x="18.333333333333343" y="-15.0" />
+      <point x="312.6011904761905" y="470.0" />
+      <point x="419.8627450980391" y="470.0" />
+      <point x="-36.333333333333314" y="15.0" />
+    </edge>
+    <edge source="org.blep.jpa.kata._14Hierarchy.MotorBike" target="org.blep.jpa.kata._14Hierarchy.LandVehicle">
+      <point x="32.333333333333314" y="-15.0" />
+      <point x="422.6011904761905" y="480.0" />
+      <point x="456.1960784313724" y="480.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="org.blep.jpa.kata._14Hierarchy.Plane" target="org.blep.jpa.kata._14Hierarchy.Aircraft">
+      <point x="0.0" y="-15.0" />
+      <point x="801.9345238095239" y="470.0" />
+      <point x="730.4317226890756" y="470.0" />
+      <point x="20.25" y="15.0" />
+    </edge>
+    <edge source="org.blep.jpa.kata._14Hierarchy.Model" target="lombok.Data">
+      <point x="24.0" y="-15.0" />
+      <point x="185.265056022409" y="175.0" />
+      <point x="221.6670168067225" y="175.0" />
+      <point x="221.6670168067225" y="80.0" />
+      <point x="332.6960784313725" y="80.0" />
+      <point x="-18.0" y="15.0" />
+    </edge>
+    <edge source="org.blep.jpa.kata._14Hierarchy.Aircraft" target="org.blep.jpa.kata._14Hierarchy.Vehicle">
+      <point x="-20.25" y="-15.0" />
+      <point x="689.9317226890756" y="350.0" />
+      <point x="483.0003501400558" y="350.0" />
+      <point x="26.333333333333314" y="15.0" />
+    </edge>
+    <edge source="org.blep.jpa.kata._14Hierarchy.Owner" target="lombok.Data">
+      <point x="18.5" y="-15.0" />
+      <point x="287.6670168067225" y="90.0" />
+      <point x="341.6960784313725" y="90.0" />
+      <point x="-9.0" y="15.0" />
+    </edge>
+    <edge source="org.blep.jpa.kata._14Hierarchy.MotorBike" target="lombok.Data">
+      <point x="0.0" y="-15.0" />
+      <point x="390.2678571428571" y="460.0" />
+      <point x="380.7969187675071" y="460.0" />
+      <point x="380.7969187675071" y="100.0" />
+      <point x="359.6960784313725" y="100.0" />
+      <point x="9.0" y="15.0" />
+    </edge>
+    <edge source="org.blep.jpa.kata._14Hierarchy.Manufacturer" target="lombok.Data">
+      <point x="29.25" y="-15.0" />
+      <point x="181.9170168067225" y="70.0" />
+      <point x="323.6960784313725" y="70.0" />
+      <point x="-27.0" y="15.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="418.0" y="265.0" />
+  <SelectedNodes>
+    <node>org.blep.jpa.kata._14Hierarchy.Owner</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
