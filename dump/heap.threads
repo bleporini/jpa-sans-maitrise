@@ -1,0 +1,553 @@
+Thread 0x1175009c8
+
+  locals:
+
+Thread 0x1138445f0
+  at java.security.AccessController.doPrivileged(Ljava/security/PrivilegedExceptionAction;Ljava/security/AccessControlContext;)Ljava/lang/Object; (Native Method)
+  at java.net.URLClassLoader.findClass(Ljava/lang/String;)Ljava/lang/Class; (URLClassLoader.java:360)
+  at java.lang.ClassLoader.loadClass(Ljava/lang/String;Z)Ljava/lang/Class; (ClassLoader.java:424)
+  at java.lang.ClassLoader.loadClass(Ljava/lang/String;Z)Ljava/lang/Class; (ClassLoader.java:411)
+  at sun.misc.Launcher$AppClassLoader.loadClass(Ljava/lang/String;Z)Ljava/lang/Class; (Launcher.java:308)
+  at java.lang.ClassLoader.loadClass(Ljava/lang/String;)Ljava/lang/Class; (ClassLoader.java:357)
+  at org.hibernate.internal.util.ReflectHelper.classForName(Ljava/lang/String;)Ljava/lang/Class; (ReflectHelper.java:188)
+  at org.hibernate.internal.util.ReflectHelper.getConstantValue(Ljava/lang/String;)Ljava/lang/Object; (ReflectHelper.java:279)
+  at org.hibernate.hql.internal.ast.QueryTranslatorImpl$JavaConstantConverter.handleDotStructure(Lantlr/collections/AST;)V (QueryTranslatorImpl.java:624)
+  at org.hibernate.hql.internal.ast.QueryTranslatorImpl$JavaConstantConverter.visit(Lantlr/collections/AST;)V (QueryTranslatorImpl.java:619)
+  at org.hibernate.hql.internal.ast.util.NodeTraverser.visitDepthFirst(Lantlr/collections/AST;)V (NodeTraverser.java:78)
+  at org.hibernate.hql.internal.ast.util.NodeTraverser.traverseDepthFirst(Lantlr/collections/AST;)V (NodeTraverser.java:67)
+  at org.hibernate.hql.internal.ast.QueryTranslatorImpl.parse(Z)Lorg/hibernate/hql/internal/ast/HqlParser; (QueryTranslatorImpl.java:300)
+  at org.hibernate.hql.internal.ast.QueryTranslatorImpl.doCompile(Ljava/util/Map;ZLjava/lang/String;)V (QueryTranslatorImpl.java:203)
+  at org.hibernate.hql.internal.ast.QueryTranslatorImpl.compile(Ljava/util/Map;Z)V (QueryTranslatorImpl.java:158)
+  at org.hibernate.engine.query.spi.HQLQueryPlan.<init>(Ljava/lang/String;Ljava/lang/String;ZLjava/util/Map;Lorg/hibernate/engine/spi/SessionFactoryImplementor;Lorg/hibernate/engine/query/spi/EntityGraphQueryHint;)V (HQLQueryPlan.java:126)
+  at org.hibernate.engine.query.spi.HQLQueryPlan.<init>(Ljava/lang/String;ZLjava/util/Map;Lorg/hibernate/engine/spi/SessionFactoryImplementor;)V (HQLQueryPlan.java:88)
+  at org.hibernate.engine.query.spi.QueryPlanCache.getHQLQueryPlan(Ljava/lang/String;ZLjava/util/Map;)Lorg/hibernate/engine/query/spi/HQLQueryPlan; (QueryPlanCache.java:190)
+  at org.hibernate.internal.AbstractSessionImpl.getHQLQueryPlan(Ljava/lang/String;Z)Lorg/hibernate/engine/query/spi/HQLQueryPlan; (AbstractSessionImpl.java:301)
+  at org.hibernate.internal.AbstractSessionImpl.createQuery(Ljava/lang/String;)Lorg/hibernate/Query; (AbstractSessionImpl.java:236)
+  at org.hibernate.internal.SessionImpl.createQuery(Ljava/lang/String;)Lorg/hibernate/Query; (SessionImpl.java:1800)
+  at org.hibernate.jpa.spi.AbstractEntityManagerImpl.createQuery(Ljava/lang/String;)Ljavax/persistence/Query; (AbstractEntityManagerImpl.java:328)
+  at org.blep.jpa.kata._11NoParameterBinding.lambda$parallel_queries$0()V (_11NoParameterBinding.java:58)
+  at org.blep.jpa.kata._11NoParameterBinding$$Lambda$6.run()V (Unknown Source)
+  at java.util.concurrent.Executors$RunnableAdapter.call()Ljava/lang/Object; (Executors.java:511)
+  at java.util.concurrent.FutureTask.run()V (FutureTask.java:266)
+  at java.util.concurrent.ThreadPoolExecutor.runWorker(Ljava/util/concurrent/ThreadPoolExecutor$Worker;)V (ThreadPoolExecutor.java:1142)
+  at java.util.concurrent.ThreadPoolExecutor$Worker.run()V (ThreadPoolExecutor.java:617)
+  at java.lang.Thread.run()V (Thread.java:745)
+
+  locals:
+    objectId=0x113759c10, line=2
+    objectId=0x113b064c0, line=2
+    objectId=0x113759bb8, line=3
+    objectId=0x1176ddb60, line=3
+    objectId=0x113b06ab8, line=3
+    objectId=0x1176ddb60, line=6
+    objectId=0x1176ddbd0, line=7
+    objectId=0x1176ddb88, line=8
+    objectId=0x1176ddbd0, line=8
+    objectId=0x1176ddb78, line=10
+    objectId=0x1176ddb88, line=10
+    objectId=0x1176ddbb8, line=10
+    objectId=0x1176ddbe8, line=12
+    objectId=0x1176ddc28, line=12
+    objectId=0x1176ddc68, line=12
+    objectId=0x1176ddbe8, line=13
+    objectId=0x1176ddd20, line=15
+    objectId=0x1176ddcc0, line=15
+    objectId=0x1176ddcd8, line=15
+    objectId=0x1138d5648, line=15
+    objectId=0x1176ddd08, line=15
+    objectId=0x1176ddca8, line=15
+    objectId=0x1176ddc98, line=15
+    objectId=0x11399abc0, line=15
+    objectId=0x11399abf0, line=15
+    objectId=0x1139ac778, line=17
+    objectId=0x1176ddd50, line=17
+    objectId=0x1176ddcc0, line=19
+    objectId=0x1176dde48, line=21
+    objectId=0x1176dde48, line=22
+    objectId=0x1139e4760, line=24
+    objectId=0x1139e4740, line=25
+    objectId=0x1138447c8, line=26
+    objectId=0x113844798, line=26
+    objectId=0x1138445f0, line=26
+    objectId=0x1139e4740, line=26
+    objectId=0x113844798, line=27
+    objectId=0x1138445f0, line=28
+
+Thread 0x113967500
+  at java.security.AccessController.doPrivileged(Ljava/security/PrivilegedExceptionAction;Ljava/security/AccessControlContext;)Ljava/lang/Object; (Native Method)
+  at java.net.URLClassLoader.findClass(Ljava/lang/String;)Ljava/lang/Class; (URLClassLoader.java:360)
+  at java.lang.ClassLoader.loadClass(Ljava/lang/String;Z)Ljava/lang/Class; (ClassLoader.java:424)
+  at java.lang.ClassLoader.loadClass(Ljava/lang/String;Z)Ljava/lang/Class; (ClassLoader.java:411)
+  at sun.misc.Launcher$AppClassLoader.loadClass(Ljava/lang/String;Z)Ljava/lang/Class; (Launcher.java:308)
+  at java.lang.ClassLoader.loadClass(Ljava/lang/String;)Ljava/lang/Class; (ClassLoader.java:357)
+  at java.lang.Class.forName0(Ljava/lang/String;ZLjava/lang/ClassLoader;)Ljava/lang/Class; (Native Method)
+  at java.lang.Class.forName(Ljava/lang/String;)Ljava/lang/Class; (Class.java:259)
+  at org.hibernate.internal.util.ReflectHelper.classForName(Ljava/lang/String;)Ljava/lang/Class; (ReflectHelper.java:193)
+  at org.hibernate.internal.util.ReflectHelper.getConstantValue(Ljava/lang/String;)Ljava/lang/Object; (ReflectHelper.java:279)
+  at org.hibernate.hql.internal.ast.QueryTranslatorImpl$JavaConstantConverter.handleDotStructure(Lantlr/collections/AST;)V (QueryTranslatorImpl.java:624)
+  at org.hibernate.hql.internal.ast.QueryTranslatorImpl$JavaConstantConverter.visit(Lantlr/collections/AST;)V (QueryTranslatorImpl.java:619)
+  at org.hibernate.hql.internal.ast.util.NodeTraverser.visitDepthFirst(Lantlr/collections/AST;)V (NodeTraverser.java:78)
+  at org.hibernate.hql.internal.ast.util.NodeTraverser.traverseDepthFirst(Lantlr/collections/AST;)V (NodeTraverser.java:67)
+  at org.hibernate.hql.internal.ast.QueryTranslatorImpl.parse(Z)Lorg/hibernate/hql/internal/ast/HqlParser; (QueryTranslatorImpl.java:300)
+  at org.hibernate.hql.internal.ast.QueryTranslatorImpl.doCompile(Ljava/util/Map;ZLjava/lang/String;)V (QueryTranslatorImpl.java:203)
+  at org.hibernate.hql.internal.ast.QueryTranslatorImpl.compile(Ljava/util/Map;Z)V (QueryTranslatorImpl.java:158)
+  at org.hibernate.engine.query.spi.HQLQueryPlan.<init>(Ljava/lang/String;Ljava/lang/String;ZLjava/util/Map;Lorg/hibernate/engine/spi/SessionFactoryImplementor;Lorg/hibernate/engine/query/spi/EntityGraphQueryHint;)V (HQLQueryPlan.java:126)
+  at org.hibernate.engine.query.spi.HQLQueryPlan.<init>(Ljava/lang/String;ZLjava/util/Map;Lorg/hibernate/engine/spi/SessionFactoryImplementor;)V (HQLQueryPlan.java:88)
+  at org.hibernate.engine.query.spi.QueryPlanCache.getHQLQueryPlan(Ljava/lang/String;ZLjava/util/Map;)Lorg/hibernate/engine/query/spi/HQLQueryPlan; (QueryPlanCache.java:190)
+  at org.hibernate.internal.AbstractSessionImpl.getHQLQueryPlan(Ljava/lang/String;Z)Lorg/hibernate/engine/query/spi/HQLQueryPlan; (AbstractSessionImpl.java:301)
+  at org.hibernate.internal.AbstractSessionImpl.createQuery(Ljava/lang/String;)Lorg/hibernate/Query; (AbstractSessionImpl.java:236)
+  at org.hibernate.internal.SessionImpl.createQuery(Ljava/lang/String;)Lorg/hibernate/Query; (SessionImpl.java:1800)
+  at org.hibernate.jpa.spi.AbstractEntityManagerImpl.createQuery(Ljava/lang/String;)Ljavax/persistence/Query; (AbstractEntityManagerImpl.java:328)
+  at org.blep.jpa.kata._11NoParameterBinding.lambda$parallel_queries$0()V (_11NoParameterBinding.java:58)
+  at org.blep.jpa.kata._11NoParameterBinding$$Lambda$6.run()V (Unknown Source)
+  at java.util.concurrent.Executors$RunnableAdapter.call()Ljava/lang/Object; (Executors.java:511)
+  at java.util.concurrent.FutureTask.run()V (FutureTask.java:266)
+  at java.util.concurrent.ThreadPoolExecutor.runWorker(Ljava/util/concurrent/ThreadPoolExecutor$Worker;)V (ThreadPoolExecutor.java:1142)
+  at java.util.concurrent.ThreadPoolExecutor$Worker.run()V (ThreadPoolExecutor.java:617)
+  at java.lang.Thread.run()V (Thread.java:745)
+
+  locals:
+    objectId=0x113759c10, line=2
+    objectId=0x113ae9050, line=2
+    objectId=0x113759bb8, line=3
+    objectId=0x1176df6b0, line=3
+    objectId=0x113ae5d78, line=3
+    objectId=0x1176df750, line=9
+    objectId=0x1176df708, line=10
+    objectId=0x1176df750, line=10
+    objectId=0x1176df6f8, line=12
+    objectId=0x1176df708, line=12
+    objectId=0x1176df738, line=12
+    objectId=0x1176df768, line=14
+    objectId=0x1176df7a8, line=14
+    objectId=0x1176df7e8, line=14
+    objectId=0x1176df768, line=15
+    objectId=0x1176df8a0, line=17
+    objectId=0x1176df840, line=17
+    objectId=0x1176df858, line=17
+    objectId=0x1138d5648, line=17
+    objectId=0x1176df888, line=17
+    objectId=0x1176df828, line=17
+    objectId=0x1176df818, line=17
+    objectId=0x11399abc0, line=17
+    objectId=0x11399abf0, line=17
+    objectId=0x1139ac778, line=19
+    objectId=0x1176df8d0, line=19
+    objectId=0x1176df840, line=21
+    objectId=0x1176df9c8, line=23
+    objectId=0x1176df9c8, line=24
+    objectId=0x1139e4700, line=26
+    objectId=0x1139e46e0, line=27
+    objectId=0x1138447c8, line=28
+    objectId=0x113967678, line=28
+    objectId=0x113967500, line=28
+    objectId=0x1139e46e0, line=28
+    objectId=0x113967678, line=29
+    objectId=0x113967500, line=30
+
+Thread 0x1139679a8
+  at java.lang.Object.wait(J)V (Native Method)
+  at java.lang.Object.wait()V (Object.java:502)
+  at com.mchange.v2.c3p0.stmt.GooGooStatementCache.acquireStatement(Ljava/sql/Connection;Ljava/lang/reflect/Method;[Ljava/lang/Object;)Ljava/lang/Object; (GooGooStatementCache.java:573)
+  at com.mchange.v2.c3p0.stmt.GooGooStatementCache.checkoutStatement(Ljava/sql/Connection;Ljava/lang/reflect/Method;[Ljava/lang/Object;)Ljava/lang/Object; (GooGooStatementCache.java:204)
+  at com.mchange.v2.c3p0.impl.NewPooledConnection.checkoutStatement(Ljava/lang/reflect/Method;[Ljava/lang/Object;)Ljava/lang/Object; (NewPooledConnection.java:308)
+  at com.mchange.v2.c3p0.impl.NewProxyConnection.prepareStatement(Ljava/lang/String;)Ljava/sql/PreparedStatement; (NewProxyConnection.java:148)
+  at io.blep.spysql.SpyConnection.prepareStatement(Ljava/lang/String;)Ljava/sql/PreparedStatement; (SpyConnection.java:30)
+  at org.hibernate.engine.jdbc.internal.StatementPreparerImpl$5.doPrepare()Ljava/sql/PreparedStatement; (StatementPreparerImpl.java:162)
+  at org.hibernate.engine.jdbc.internal.StatementPreparerImpl$StatementPreparationTemplate.prepareStatement()Ljava/sql/PreparedStatement; (StatementPreparerImpl.java:186)
+  at org.hibernate.engine.jdbc.internal.StatementPreparerImpl.prepareQueryStatement(Ljava/lang/String;ZLorg/hibernate/ScrollMode;)Ljava/sql/PreparedStatement; (StatementPreparerImpl.java:160)
+  at org.hibernate.loader.Loader.prepareQueryStatement(Ljava/lang/String;Lorg/hibernate/engine/spi/QueryParameters;Lorg/hibernate/dialect/pagination/LimitHandler;ZLorg/hibernate/engine/spi/SessionImplementor;)Ljava/sql/PreparedStatement; (Loader.java:1884)
+  at org.hibernate.loader.Loader.executeQueryStatement(Ljava/lang/String;Lorg/hibernate/engine/spi/QueryParameters;ZLjava/util/List;Lorg/hibernate/engine/spi/SessionImplementor;)Lorg/hibernate/loader/Loader$SqlStatementWrapper; (Loader.java:1861)
+  at org.hibernate.loader.Loader.executeQueryStatement(Lorg/hibernate/engine/spi/QueryParameters;ZLjava/util/List;Lorg/hibernate/engine/spi/SessionImplementor;)Lorg/hibernate/loader/Loader$SqlStatementWrapper; (Loader.java:1838)
+  at org.hibernate.loader.Loader.doQuery(Lorg/hibernate/engine/spi/SessionImplementor;Lorg/hibernate/engine/spi/QueryParameters;ZLorg/hibernate/transform/ResultTransformer;)Ljava/util/List; (Loader.java:909)
+  at org.hibernate.loader.Loader.doQueryAndInitializeNonLazyCollections(Lorg/hibernate/engine/spi/SessionImplementor;Lorg/hibernate/engine/spi/QueryParameters;ZLorg/hibernate/transform/ResultTransformer;)Ljava/util/List; (Loader.java:354)
+  at org.hibernate.loader.Loader.doList(Lorg/hibernate/engine/spi/SessionImplementor;Lorg/hibernate/engine/spi/QueryParameters;Lorg/hibernate/transform/ResultTransformer;)Ljava/util/List; (Loader.java:2553)
+  at org.hibernate.loader.Loader.doList(Lorg/hibernate/engine/spi/SessionImplementor;Lorg/hibernate/engine/spi/QueryParameters;)Ljava/util/List; (Loader.java:2539)
+  at org.hibernate.loader.Loader.listIgnoreQueryCache(Lorg/hibernate/engine/spi/SessionImplementor;Lorg/hibernate/engine/spi/QueryParameters;)Ljava/util/List; (Loader.java:2369)
+  at org.hibernate.loader.Loader.list(Lorg/hibernate/engine/spi/SessionImplementor;Lorg/hibernate/engine/spi/QueryParameters;Ljava/util/Set;[Lorg/hibernate/type/Type;)Ljava/util/List; (Loader.java:2364)
+  at org.hibernate.loader.hql.QueryLoader.list(Lorg/hibernate/engine/spi/SessionImplementor;Lorg/hibernate/engine/spi/QueryParameters;)Ljava/util/List; (QueryLoader.java:496)
+  at org.hibernate.hql.internal.ast.QueryTranslatorImpl.list(Lorg/hibernate/engine/spi/SessionImplementor;Lorg/hibernate/engine/spi/QueryParameters;)Ljava/util/List; (QueryTranslatorImpl.java:387)
+  at org.hibernate.engine.query.spi.HQLQueryPlan.performList(Lorg/hibernate/engine/spi/QueryParameters;Lorg/hibernate/engine/spi/SessionImplementor;)Ljava/util/List; (HQLQueryPlan.java:231)
+  at org.hibernate.internal.SessionImpl.list(Ljava/lang/String;Lorg/hibernate/engine/spi/QueryParameters;)Ljava/util/List; (SessionImpl.java:1264)
+  at org.hibernate.internal.QueryImpl.list()Ljava/util/List; (QueryImpl.java:103)
+  at org.hibernate.jpa.internal.QueryImpl.list()Ljava/util/List; (QueryImpl.java:573)
+  at org.hibernate.jpa.internal.QueryImpl.getResultList()Ljava/util/List; (QueryImpl.java:449)
+  at org.blep.jpa.kata._11NoParameterBinding.lambda$parallel_queries$0()V (_11NoParameterBinding.java:60)
+  at org.blep.jpa.kata._11NoParameterBinding$$Lambda$6.run()V (Unknown Source)
+  at java.util.concurrent.Executors$RunnableAdapter.call()Ljava/lang/Object; (Executors.java:511)
+  at java.util.concurrent.FutureTask.run()V (FutureTask.java:266)
+  at java.util.concurrent.ThreadPoolExecutor.runWorker(Ljava/util/concurrent/ThreadPoolExecutor$Worker;)V (ThreadPoolExecutor.java:1142)
+  at java.util.concurrent.ThreadPoolExecutor$Worker.run()V (ThreadPoolExecutor.java:617)
+  at java.lang.Thread.run()V (Thread.java:745)
+
+  locals:
+    objectId=0x1138e0220, line=2
+    objectId=0x1176dfa30, line=2
+    objectId=0x1176dfa48, line=2
+    objectId=0x1138e0220, line=3
+    objectId=0x113ae8638, line=3
+    objectId=0x1176ddae8, line=3
+    objectId=0x1176dfa78, line=5
+    objectId=0x1176dfa60, line=5
+    objectId=0x1176dfab8, line=8
+    objectId=0x1176dfad8, line=9
+    objectId=0x1176dfb00, line=10
+    objectId=0x1176dfb90, line=10
+    objectId=0x1176dfae8, line=10
+    objectId=0x1176d5388, line=10
+    objectId=0x11396e5a8, line=10
+    objectId=0x1176dfb70, line=10
+    objectId=0x1176dfb00, line=11
+    objectId=0x1176dfb90, line=11
+    objectId=0x1176d5388, line=11
+    objectId=0x1176dfae8, line=11
+    objectId=0x1176dfb00, line=13
+    objectId=0x1176d5388, line=13
+    objectId=0x1176dfb90, line=13
+    objectId=0x1176dfbf0, line=13
+    objectId=0x1176d5bb0, line=14
+    objectId=0x1176dfb00, line=15
+    objectId=0x1176dfb90, line=17
+    objectId=0x1176dfb90, line=20
+    objectId=0x1176dfb90, line=21
+    objectId=0x1176d5388, line=21
+    objectId=0x1176dfb90, line=21
+    objectId=0x1176dfc18, line=21
+    objectId=0x1176dfc08, line=21
+    objectId=0x1176d67a8, line=21
+    objectId=0x1176d5388, line=22
+    objectId=0x1176d65a0, line=23
+    objectId=0x1176d6570, line=25
+    objectId=0x1176d52e8, line=26
+    objectId=0x1139e4670, line=28
+    objectId=0x1139e4650, line=29
+    objectId=0x1138447c8, line=30
+    objectId=0x113967b20, line=30
+    objectId=0x1139679a8, line=30
+    objectId=0x1139e4650, line=30
+    objectId=0x113967b20, line=31
+    objectId=0x1139679a8, line=32
+
+Thread 0x113967d80
+  at java.lang.Object.wait(J)V (Native Method)
+  at java.lang.Object.wait()V (Object.java:502)
+  at com.mchange.v2.c3p0.stmt.GooGooStatementCache.acquireStatement(Ljava/sql/Connection;Ljava/lang/reflect/Method;[Ljava/lang/Object;)Ljava/lang/Object; (GooGooStatementCache.java:573)
+  at com.mchange.v2.c3p0.stmt.GooGooStatementCache.checkoutStatement(Ljava/sql/Connection;Ljava/lang/reflect/Method;[Ljava/lang/Object;)Ljava/lang/Object; (GooGooStatementCache.java:204)
+  at com.mchange.v2.c3p0.impl.NewPooledConnection.checkoutStatement(Ljava/lang/reflect/Method;[Ljava/lang/Object;)Ljava/lang/Object; (NewPooledConnection.java:308)
+  at com.mchange.v2.c3p0.impl.NewProxyConnection.prepareStatement(Ljava/lang/String;)Ljava/sql/PreparedStatement; (NewProxyConnection.java:148)
+  at io.blep.spysql.SpyConnection.prepareStatement(Ljava/lang/String;)Ljava/sql/PreparedStatement; (SpyConnection.java:30)
+  at org.hibernate.engine.jdbc.internal.StatementPreparerImpl$5.doPrepare()Ljava/sql/PreparedStatement; (StatementPreparerImpl.java:162)
+  at org.hibernate.engine.jdbc.internal.StatementPreparerImpl$StatementPreparationTemplate.prepareStatement()Ljava/sql/PreparedStatement; (StatementPreparerImpl.java:186)
+  at org.hibernate.engine.jdbc.internal.StatementPreparerImpl.prepareQueryStatement(Ljava/lang/String;ZLorg/hibernate/ScrollMode;)Ljava/sql/PreparedStatement; (StatementPreparerImpl.java:160)
+  at org.hibernate.loader.Loader.prepareQueryStatement(Ljava/lang/String;Lorg/hibernate/engine/spi/QueryParameters;Lorg/hibernate/dialect/pagination/LimitHandler;ZLorg/hibernate/engine/spi/SessionImplementor;)Ljava/sql/PreparedStatement; (Loader.java:1884)
+  at org.hibernate.loader.Loader.executeQueryStatement(Ljava/lang/String;Lorg/hibernate/engine/spi/QueryParameters;ZLjava/util/List;Lorg/hibernate/engine/spi/SessionImplementor;)Lorg/hibernate/loader/Loader$SqlStatementWrapper; (Loader.java:1861)
+  at org.hibernate.loader.Loader.executeQueryStatement(Lorg/hibernate/engine/spi/QueryParameters;ZLjava/util/List;Lorg/hibernate/engine/spi/SessionImplementor;)Lorg/hibernate/loader/Loader$SqlStatementWrapper; (Loader.java:1838)
+  at org.hibernate.loader.Loader.doQuery(Lorg/hibernate/engine/spi/SessionImplementor;Lorg/hibernate/engine/spi/QueryParameters;ZLorg/hibernate/transform/ResultTransformer;)Ljava/util/List; (Loader.java:909)
+  at org.hibernate.loader.Loader.doQueryAndInitializeNonLazyCollections(Lorg/hibernate/engine/spi/SessionImplementor;Lorg/hibernate/engine/spi/QueryParameters;ZLorg/hibernate/transform/ResultTransformer;)Ljava/util/List; (Loader.java:354)
+  at org.hibernate.loader.Loader.doList(Lorg/hibernate/engine/spi/SessionImplementor;Lorg/hibernate/engine/spi/QueryParameters;Lorg/hibernate/transform/ResultTransformer;)Ljava/util/List; (Loader.java:2553)
+  at org.hibernate.loader.Loader.doList(Lorg/hibernate/engine/spi/SessionImplementor;Lorg/hibernate/engine/spi/QueryParameters;)Ljava/util/List; (Loader.java:2539)
+  at org.hibernate.loader.Loader.listIgnoreQueryCache(Lorg/hibernate/engine/spi/SessionImplementor;Lorg/hibernate/engine/spi/QueryParameters;)Ljava/util/List; (Loader.java:2369)
+  at org.hibernate.loader.Loader.list(Lorg/hibernate/engine/spi/SessionImplementor;Lorg/hibernate/engine/spi/QueryParameters;Ljava/util/Set;[Lorg/hibernate/type/Type;)Ljava/util/List; (Loader.java:2364)
+  at org.hibernate.loader.hql.QueryLoader.list(Lorg/hibernate/engine/spi/SessionImplementor;Lorg/hibernate/engine/spi/QueryParameters;)Ljava/util/List; (QueryLoader.java:496)
+  at org.hibernate.hql.internal.ast.QueryTranslatorImpl.list(Lorg/hibernate/engine/spi/SessionImplementor;Lorg/hibernate/engine/spi/QueryParameters;)Ljava/util/List; (QueryTranslatorImpl.java:387)
+  at org.hibernate.engine.query.spi.HQLQueryPlan.performList(Lorg/hibernate/engine/spi/QueryParameters;Lorg/hibernate/engine/spi/SessionImplementor;)Ljava/util/List; (HQLQueryPlan.java:231)
+  at org.hibernate.internal.SessionImpl.list(Ljava/lang/String;Lorg/hibernate/engine/spi/QueryParameters;)Ljava/util/List; (SessionImpl.java:1264)
+  at org.hibernate.internal.QueryImpl.list()Ljava/util/List; (QueryImpl.java:103)
+  at org.hibernate.jpa.internal.QueryImpl.list()Ljava/util/List; (QueryImpl.java:573)
+  at org.hibernate.jpa.internal.QueryImpl.getResultList()Ljava/util/List; (QueryImpl.java:449)
+  at org.blep.jpa.kata._11NoParameterBinding.lambda$parallel_queries$0()V (_11NoParameterBinding.java:60)
+  at org.blep.jpa.kata._11NoParameterBinding$$Lambda$6.run()V (Unknown Source)
+  at java.util.concurrent.Executors$RunnableAdapter.call()Ljava/lang/Object; (Executors.java:511)
+  at java.util.concurrent.FutureTask.run()V (FutureTask.java:266)
+  at java.util.concurrent.ThreadPoolExecutor.runWorker(Ljava/util/concurrent/ThreadPoolExecutor$Worker;)V (ThreadPoolExecutor.java:1142)
+  at java.util.concurrent.ThreadPoolExecutor$Worker.run()V (ThreadPoolExecutor.java:617)
+  at java.lang.Thread.run()V (Thread.java:745)
+
+  locals:
+    objectId=0x1138e0220, line=2
+    objectId=0x1176ded30, line=2
+    objectId=0x1176ded48, line=2
+    objectId=0x1138e0220, line=3
+    objectId=0x113aff2a8, line=3
+    objectId=0x1176ded60, line=3
+    objectId=0x1176dedb0, line=5
+    objectId=0x1176ded98, line=5
+    objectId=0x1176dedf0, line=8
+    objectId=0x1176dee10, line=9
+    objectId=0x1176dee38, line=10
+    objectId=0x1176deec8, line=10
+    objectId=0x1176dee20, line=10
+    objectId=0x1176c51a0, line=10
+    objectId=0x11396e5a8, line=10
+    objectId=0x1176deea8, line=10
+    objectId=0x1176dee38, line=11
+    objectId=0x1176deec8, line=11
+    objectId=0x1176c51a0, line=11
+    objectId=0x1176dee20, line=11
+    objectId=0x1176dee38, line=13
+    objectId=0x1176c51a0, line=13
+    objectId=0x1176deec8, line=13
+    objectId=0x1176def28, line=13
+    objectId=0x1176c59c8, line=14
+    objectId=0x1176dee38, line=15
+    objectId=0x1176deec8, line=17
+    objectId=0x1176deec8, line=20
+    objectId=0x1176deec8, line=21
+    objectId=0x1176c51a0, line=21
+    objectId=0x1176deec8, line=21
+    objectId=0x1176def50, line=21
+    objectId=0x1176def40, line=21
+    objectId=0x1176c65c0, line=21
+    objectId=0x1176c51a0, line=22
+    objectId=0x1176c63b8, line=23
+    objectId=0x1176c6388, line=25
+    objectId=0x1176c5100, line=26
+    objectId=0x1139e46b8, line=28
+    objectId=0x1139e4698, line=29
+    objectId=0x1138447c8, line=30
+    objectId=0x113967f98, line=30
+    objectId=0x113967d80, line=30
+    objectId=0x1139e4698, line=30
+    objectId=0x113967f98, line=31
+    objectId=0x113967d80, line=32
+
+Thread 0x1138df260
+  at java.lang.Object.wait(J)V (Native Method)
+  at com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread.run()V (ThreadPoolAsynchronousRunner.java:635)
+
+  locals:
+    objectId=0x1138df260, line=1
+    objectId=0x1138ddbc0, line=1
+
+Thread 0x1138deda8
+  at java.net.SocketInputStream.socketRead0(Ljava/io/FileDescriptor;[BIII)I (Native Method)
+  at java.net.SocketInputStream.read([BIII)I (SocketInputStream.java:150)
+  at java.net.SocketInputStream.read([BII)I (SocketInputStream.java:121)
+  at java.io.BufferedInputStream.fill()V (BufferedInputStream.java:246)
+  at java.io.BufferedInputStream.read()I (BufferedInputStream.java:265)
+  at java.io.DataInputStream.readInt()I (DataInputStream.java:387)
+  at org.h2.value.Transfer.readInt()I (Transfer.java:151)
+  at org.h2.engine.SessionRemote.done(Lorg/h2/value/Transfer;)V (SessionRemote.java:560)
+  at org.h2.command.CommandRemote.prepare(Lorg/h2/engine/SessionRemote;Z)V (CommandRemote.java:67)
+  at org.h2.command.CommandRemote.<init>(Lorg/h2/engine/SessionRemote;Ljava/util/ArrayList;Ljava/lang/String;I)V (CommandRemote.java:46)
+  at org.h2.engine.SessionRemote.prepareCommand(Ljava/lang/String;I)Lorg/h2/command/CommandInterface; (SessionRemote.java:439)
+  at org.h2.jdbc.JdbcConnection.prepareCommand(Ljava/lang/String;I)Lorg/h2/command/CommandInterface; (JdbcConnection.java:1109)
+  at org.h2.jdbc.JdbcPreparedStatement.<init>(Lorg/h2/jdbc/JdbcConnection;Ljava/lang/String;IIIZ)V (JdbcPreparedStatement.java:74)
+  at org.h2.jdbc.JdbcConnection.prepareStatement(Ljava/lang/String;)Ljava/sql/PreparedStatement; (JdbcConnection.java:264)
+  at sun.reflect.GeneratedMethodAccessor1.invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object; (Unknown Source)
+  at sun.reflect.DelegatingMethodAccessorImpl.invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object; (DelegatingMethodAccessorImpl.java:43)
+  at java.lang.reflect.Method.invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object; (Method.java:483)
+  at com.mchange.v2.c3p0.stmt.GooGooStatementCache$1StmtAcquireTask.run()V (GooGooStatementCache.java:546)
+  at com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread.run()V (ThreadPoolAsynchronousRunner.java:648)
+
+  locals:
+    objectId=0x113ae8848, line=1
+    objectId=0x113ae9828, line=1
+    objectId=0x113ae8828, line=1
+    objectId=0x113ae89a0, line=3
+    objectId=0x113ae89a0, line=4
+    objectId=0x113ae8980, line=5
+    objectId=0x113ae86c8, line=7
+    objectId=0x113ae8760, line=7
+    objectId=0x1176df528, line=8
+    objectId=0x113ae86c8, line=8
+    objectId=0x113ae8760, line=8
+    objectId=0x1176df528, line=9
+    objectId=0x113ae86c8, line=9
+    objectId=0x113ae8638, line=13
+    objectId=0x1176df5b8, line=17
+    objectId=0x1138deda8, line=18
+    objectId=0x1176df5b8, line=18
+    objectId=0x1138ddbc0, line=18
+
+Thread 0x1138ddcb8
+  at java.lang.Object.wait(J)V (Native Method)
+  at com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread.run()V (ThreadPoolAsynchronousRunner.java:635)
+
+  locals:
+    objectId=0x1138ddcb8, line=1
+    objectId=0x1138ddbc0, line=1
+
+Thread 0x1138dfaf0
+  at java.lang.Object.wait(J)V (Native Method)
+  at java.util.TimerThread.mainLoop()V (Timer.java:552)
+  at java.util.TimerThread.run()V (Timer.java:505)
+
+  locals:
+    objectId=0x1138dfaf0, line=1
+    objectId=0x1138dfab0, line=1
+    objectId=0x1138df888, line=1
+    objectId=0x1138dfae0, line=1
+    objectId=0x1138dfaf0, line=2
+
+Thread 0x113968258
+  at java.net.PlainSocketImpl.socketAccept(Ljava/net/SocketImpl;)V (Native Method)
+  at java.net.AbstractPlainSocketImpl.accept(Ljava/net/SocketImpl;)V (AbstractPlainSocketImpl.java:404)
+  at java.net.ServerSocket.implAccept(Ljava/net/Socket;)V (ServerSocket.java:545)
+  at java.net.ServerSocket.accept()Ljava/net/Socket; (ServerSocket.java:513)
+  at com.intellij.rt.execution.application.AppMain$1.run()V (AppMain.java:85)
+  at java.lang.Thread.run()V (Thread.java:745)
+
+  locals:
+    objectId=0x113968238, line=0
+    objectId=0x1139683d0, line=1
+    objectId=0x113968440, line=1
+    objectId=0x1139684b0, line=2
+    objectId=0x1139684c8, line=2
+    objectId=0x113968440, line=2
+    objectId=0x1139684b0, line=3
+    objectId=0x1139684c8, line=3
+    objectId=0x1139684e8, line=4
+    objectId=0x1139684b0, line=4
+    objectId=0x113968258, line=5
+
+Thread 0x11381f618
+
+  locals:
+
+Thread 0x113844188
+  at java.lang.Object.wait(J)V (Native Method)
+  at java.lang.ref.ReferenceQueue.remove(J)Ljava/lang/ref/Reference; (ReferenceQueue.java:142)
+  at java.lang.ref.ReferenceQueue.remove()Ljava/lang/ref/Reference; (ReferenceQueue.java:158)
+  at java.lang.ref.Finalizer$FinalizerThread.run()V (Finalizer.java:209)
+
+  locals:
+    objectId=0x1138262b8, line=1
+    objectId=0x1138262d8, line=1
+    objectId=0x113844188, line=3
+    objectId=0x113801628, line=3
+
+Thread 0x113844368
+  at java.lang.ref.Reference$ReferenceHandler.run()V (Reference.java:137)
+
+  locals:
+    objectId=0x113844368, line=0
+    objectId=0x113796018, line=0
+
+Thread 0x113969018
+  at sun.misc.Unsafe.park(ZJ)V (Native Method)
+  at java.util.concurrent.locks.LockSupport.parkNanos(Ljava/lang/Object;J)V (LockSupport.java:215)
+  at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(J)J (AbstractQueuedSynchronizer.java:2078)
+  at java.util.concurrent.ThreadPoolExecutor.awaitTermination(JLjava/util/concurrent/TimeUnit;)Z (ThreadPoolExecutor.java:1465)
+  at org.blep.jpa.kata._11NoParameterBinding.parallel_queries()V (_11NoParameterBinding.java:68)
+  at sun.reflect.NativeMethodAccessorImpl.invoke0(Ljava/lang/reflect/Method;Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object; (Native Method)
+  at sun.reflect.NativeMethodAccessorImpl.invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object; (NativeMethodAccessorImpl.java:62)
+  at sun.reflect.DelegatingMethodAccessorImpl.invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object; (DelegatingMethodAccessorImpl.java:43)
+  at java.lang.reflect.Method.invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object; (Method.java:483)
+  at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall()Ljava/lang/Object; (FrameworkMethod.java:47)
+  at org.junit.internal.runners.model.ReflectiveCallable.run()Ljava/lang/Object; (ReflectiveCallable.java:12)
+  at org.junit.runners.model.FrameworkMethod.invokeExplosively(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object; (FrameworkMethod.java:44)
+  at org.junit.internal.runners.statements.InvokeMethod.evaluate()V (InvokeMethod.java:17)
+  at org.junit.internal.runners.statements.RunAfters.evaluate()V (RunAfters.java:27)
+  at org.junit.runners.ParentRunner.runLeaf(Lorg/junit/runners/model/Statement;Lorg/junit/runner/Description;Lorg/junit/runner/notification/RunNotifier;)V (ParentRunner.java:271)
+  at org.junit.runners.BlockJUnit4ClassRunner.runChild(Lorg/junit/runners/model/FrameworkMethod;Lorg/junit/runner/notification/RunNotifier;)V (BlockJUnit4ClassRunner.java:70)
+  at org.junit.runners.BlockJUnit4ClassRunner.runChild(Ljava/lang/Object;Lorg/junit/runner/notification/RunNotifier;)V (BlockJUnit4ClassRunner.java:50)
+  at org.junit.runners.ParentRunner$3.run()V (ParentRunner.java:238)
+  at org.junit.runners.ParentRunner$1.schedule(Ljava/lang/Runnable;)V (ParentRunner.java:63)
+  at org.junit.runners.ParentRunner.runChildren(Lorg/junit/runner/notification/RunNotifier;)V (ParentRunner.java:236)
+  at org.junit.runners.ParentRunner.access$000(Lorg/junit/runners/ParentRunner;Lorg/junit/runner/notification/RunNotifier;)V (ParentRunner.java:53)
+  at org.junit.runners.ParentRunner$2.evaluate()V (ParentRunner.java:229)
+  at org.junit.runners.ParentRunner.run(Lorg/junit/runner/notification/RunNotifier;)V (ParentRunner.java:309)
+  at org.junit.runner.JUnitCore.run(Lorg/junit/runner/Runner;)Lorg/junit/runner/Result; (JUnitCore.java:160)
+  at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs([Ljava/lang/String;Ljava/util/ArrayList;Ljava/lang/String;Z)I (JUnit4IdeaTestRunner.java:74)
+  at com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart([Ljava/lang/String;ZLjava/util/ArrayList;Ljava/lang/String;Lcom/intellij/rt/execution/junit/segments/SegmentedOutputStream;Lcom/intellij/rt/execution/junit/segments/SegmentedOutputStream;)I (JUnitStarter.java:211)
+  at com.intellij.rt.execution.junit.JUnitStarter.main([Ljava/lang/String;)V (JUnitStarter.java:67)
+  at sun.reflect.NativeMethodAccessorImpl.invoke0(Ljava/lang/reflect/Method;Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object; (Native Method)
+  at sun.reflect.NativeMethodAccessorImpl.invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object; (NativeMethodAccessorImpl.java:62)
+  at sun.reflect.DelegatingMethodAccessorImpl.invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object; (DelegatingMethodAccessorImpl.java:43)
+  at java.lang.reflect.Method.invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object; (Method.java:483)
+  at com.intellij.rt.execution.application.AppMain.main([Ljava/lang/String;)V (AppMain.java:134)
+
+  locals:
+    objectId=0x113969000, line=1
+    objectId=0x113969018, line=1
+    objectId=0x113969000, line=2
+    objectId=0x113969190, line=2
+    objectId=0x1138447c8, line=3
+    objectId=0x1139691b0, line=3
+    objectId=0x1139691c8, line=3
+    objectId=0x113844860, line=4
+    objectId=0x1138447c8, line=4
+    objectId=0x1139691d8, line=4
+    objectId=0x113969260, line=6
+    objectId=0x113844860, line=6
+    objectId=0x113968fe0, line=6
+    objectId=0x113969278, line=7
+    objectId=0x113844860, line=7
+    objectId=0x113968fe0, line=7
+    objectId=0x113968f88, line=8
+    objectId=0x113844860, line=8
+    objectId=0x113968fe0, line=8
+    objectId=0x113969278, line=8
+    objectId=0x113969288, line=9
+    objectId=0x113969288, line=10
+    objectId=0x1139692a0, line=11
+    objectId=0x113844860, line=11
+    objectId=0x113968fe0, line=11
+    objectId=0x1139692b0, line=12
+    objectId=0x1139692c8, line=13
+    objectId=0x1139692e0, line=13
+    objectId=0x1139692f8, line=14
+    objectId=0x1139692c8, line=14
+    objectId=0x113969318, line=14
+    objectId=0x113969338, line=14
+    objectId=0x113969350, line=14
+    objectId=0x1139692f8, line=15
+    objectId=0x1139692a0, line=15
+    objectId=0x113969338, line=15
+    objectId=0x113969318, line=15
+    objectId=0x1139692f8, line=16
+    objectId=0x1139692a0, line=16
+    objectId=0x113969338, line=16
+    objectId=0x113969368, line=17
+    objectId=0x113969380, line=18
+    objectId=0x113969368, line=18
+    objectId=0x1139692f8, line=19
+    objectId=0x113969338, line=19
+    objectId=0x113969390, line=19
+    objectId=0x1139692a0, line=19
+    objectId=0x1139692f8, line=20
+    objectId=0x113969338, line=20
+    objectId=0x1139693b0, line=21
+    objectId=0x1139692f8, line=22
+    objectId=0x113969338, line=22
+    objectId=0x1139693c8, line=22
+    objectId=0x1139693b0, line=22
+    objectId=0x1139693e0, line=23
+    objectId=0x1139692f8, line=23
+    objectId=0x1139693f0, line=23
+    objectId=0x113969418, line=23
+    objectId=0x113969428, line=24
+    objectId=0x113969440, line=24
+    objectId=0x113969458, line=24
+    objectId=0x113969470, line=24
+    objectId=0x1139692f8, line=24
+    objectId=0x1139693e0, line=24
+    objectId=0x113969440, line=25
+    objectId=0x113969458, line=25
+    objectId=0x1137cb638, line=25
+    objectId=0x113788f18, line=25
+    objectId=0x1137cb650, line=25
+    objectId=0x113788f30, line=25
+    objectId=0x113969428, line=25
+    objectId=0x113968f70, line=26
+    objectId=0x1137cb638, line=26
+    objectId=0x113788f18, line=26
+    objectId=0x113969488, line=26
+    objectId=0x113969458, line=26
+    objectId=0x1139694a8, line=26
+    objectId=0x113969440, line=26
+    objectId=0x1139694c0, line=28
+    objectId=0x113968f40, line=28
+    objectId=0x1139694d8, line=29
+    objectId=0x113968f40, line=29
+    objectId=0x113968ee8, line=30
+    objectId=0x113968f40, line=30
+    objectId=0x1139694d8, line=30
+    objectId=0x1139694e8, line=31
+    objectId=0x113968258, line=31
+    objectId=0x113969508, line=31
+    objectId=0x113968f70, line=31
+    objectId=0x113969520, line=31
+    objectId=0x113968ee8, line=31
+
